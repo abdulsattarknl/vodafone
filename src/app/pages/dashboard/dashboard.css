@@ -1,0 +1,75 @@
+.dashboard{
+  padding: 30px 0;
+  background: #ccc;
+  min-height: 400px;
+}
+.dashboard .container{
+  width: 100%;
+  max-width: 1024px;
+  padding: 20px 20px;
+  margin: auto;
+  display: block;
+}
+.dashboard-header{
+  padding:30px 10px;
+}
+.help{
+  font-size:12px;
+  margin-right: 20px;
+}
+.dashboard .btn-primary{
+  background-color: #E60000;
+  border-color: #E60000;
+  outline: none;
+}
+.dashboard .btn-primary:hover, .dashboard .btn-primary:focus{
+  background: red;
+  border: none;
+  box-shadow:none;
+  outline: none;
+}
+.dashboard-body{
+    background: #fff;
+    padding:30px 20px;
+}
+.dashboard .float-left{
+  float: left;
+}
+.dashboard .float-right{
+  float: right;
+}
+.dashboard-body .nav-tabs li{
+  padding:20px 10px 10px 10px;
+}
+.user-details{
+  padding:20px 0px;
+
+}
+.user-details .search-input{
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+}
+.details-table{
+  padding:20px 0px;
+}
+.details-table .row{
+  border-bottom: 1px solid #ccc;
+}
+.user-row{
+  padding:20px 0;
+}
+.category-button{
+  background: #ccc;
+  font-weight: bold;
+  font-size:13px;
+  padding:5px 5px;
+  margin: 5px auto;
+  display: inline-block;
+  border-radius: 5px;
+}
+.category-button:hover{
+  background: #ddd
+}
