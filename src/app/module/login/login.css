@@ -1,0 +1,16 @@
+.login .form-input{
+  padding: 5px 5px;
+  width: 100%;
+
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.login .form-input:first-child{
+  margin-bottom: 0px;
+}
+.login .btn{
+  float: left;
+  margin-top: 30px;
+
+}

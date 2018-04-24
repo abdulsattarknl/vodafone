@@ -1,0 +1,63 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  background-color: #E60000;
+  padding: 0 0;
+  top: 0;
+  right:0;
+  left:0;
+  width: 100%;
+  z-index: 9999;
+
+}
+.navbar .row{
+  max-width:1024px;
+  display: block;
+  margin: auto;
+  width:100%
+
+}
+.navbar .float-left{
+  float: left;
+}
+.navbar .float-right{
+  float: right;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.dropdown{
+  display:none;
+}
+
+a:hover .dropdown{
+  display: block;
+  position: fixed;
+    top: 48px;
+    left: 0;
+    right: 0;
+    background: #eee;
+    z-index: 99999;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.global-search{
+  margin-top: 7px;
+    padding: 5px 10px;
+    width: 297px;
+}
