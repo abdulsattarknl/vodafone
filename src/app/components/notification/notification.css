@@ -1,0 +1,14 @@
+.notification-component{
+  width:100%;
+  background: #fff;
+  padding: 20px 20px;
+  font-size: 12px;
+}
+.header-content{
+  margin: 20px auto;
+
+      height: 30px;
+}
+.notification-component .row{
+  padding:10px 0;
+}
