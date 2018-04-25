@@ -1,5 +1,5 @@
-<div class="popup-modal">
-  <div class="overlay"></div>
+<div class="popup-modal" [class.hidden]="hiddenOnClick">
+  <div class="overlay" (click)="hideThis()"></div>
   <div class="popup-body">
     <div class="popup-header">
       <h3 class="h3">Welcome to BMW Group Niederlassung West</h3>

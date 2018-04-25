@@ -1,0 +1,42 @@
+<div class="user-management">
+  <div class="container">
+    <div class="user-management-header">
+      <div class="row">
+        <div class="col-lg-12">
+        <span class="float-left"><strong>Users</strong></span>
+        <span class="float-right">
+            <a class="help">Help</a>
+            <button class="btn btn-primary" (click)="showThisModal()">Add User to Company</button>
+        </span>
+      </div>
+      </div>
+    </div>
+    <div class="user-management-body">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">User</a></li>
+        <li><a href="#">Admin</a></li>
+      </ul>
+      <div class="user-details">
+            <div class="search"><input class="search-input" placeholder="search"/></div>
+            <div class="details-table">
+                <div class="row">
+                  <div class="col-lg-4">Name</div>
+                  <div class="col-lg-4">Status</div>
+                  <div class="col-lg-4">Groups</div>
+                </div>
+                <div class="row user-row">
+                  <div class="col-lg-4"><img src=""> Abdul Ifthekar</div>
+                  <div class="col-lg-4">Activated</div>
+                  <div class="col-lg-4"><a class="category-button">Management</a> <a class="category-button">Sales</a> <a class="category-button">Forntoffice</a> <a class="category-button">Garage</a> <a class="category-button">Compane</a></div>
+                </div>
+                <div class="row user-row">
+                  <div class="col-lg-4"><img src=""> Abdul Sattar</div>
+                  <div class="col-lg-4">Activated</div>
+                  <div class="col-lg-4"><a class="category-button">Management</a> <a class="category-button">Sales</a> <a class="category-button">Forntoffice</a> <a class="category-button">Garage</a> <a class="category-button">Compane</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<app-modal *ngIf="showModal"></app-modal>

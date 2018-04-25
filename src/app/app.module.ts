@@ -13,7 +13,10 @@ import { DropdownComponent } from './core/dropdown/dropdown.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ModalComponent } from './core/modal/modal.component';
-
+import { WelcomeComponent } from './components/welcome/welcome.component';
+import { NotificationComponent } from './components/notification/notification.component';
+import { ChartsModule } from 'ng2-charts';
+import { UserManagementComponent } from './pages/user-management/user-management.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,17 +26,22 @@ import { ModalComponent } from './core/modal/modal.component';
     HeaderComponent,
     FooterComponent,
     ModalComponent,
-    DashboardComponent
+    DashboardComponent,
+    WelcomeComponent,
+    NotificationComponent,
+    UserManagementComponent
   ],
   imports: [
+    ChartsModule,
     BrowserModule.withServerTransition({appId: 'my-app'}),
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full'},
-      { path: 'dashboard', component: DashboardComponent}
+      { path: 'dashboard', component: DashboardComponent},
+      { path: 'usermanagment', component: UserManagementComponent}
 
 
     ]),
-    TransferHttpCacheModule,
+    TransferHttpCacheModule
   ],
   providers: [],
   bootstrap: [AppComponent]

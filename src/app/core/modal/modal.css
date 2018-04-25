@@ -6,6 +6,9 @@
   left: 0;
   z-index:99999;
 }
+.popup-modal.hidden{
+  display: none;
+}
 .popup-modal .overlay{
   background-color: rgba(0,0,0, 0.5);
     position: absolute;

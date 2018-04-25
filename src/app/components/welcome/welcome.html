@@ -1,0 +1,34 @@
+<div class="welcome-component">
+    <div class="welcome-section">
+        <div class="section-body">
+          <div class="row">
+            <div class="col-lg-6">
+
+                <img src="">
+                <div class="welcome-content">
+                <div class="title">You are here: Buisness Customers/My Vodafone/Welcome</div>
+                  <div class="user-details">
+                    <span class="label">My Vodafone</span>
+                    <span>Good Day</span> Sam Kumamer
+                  </div>
+                  <p class="number">0123456789</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="icon-section"></div>
+
+            </div>
+          </div>
+
+          <div class="dropdown float-right">
+            <div  class="dropdown-button">
+            <button class="btn btn-primary" type="button" [class.toggle]="toggleThis" (click)="toggle()">Startseite<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="/usermanagment">User Management page</a></li>
+              <li><a href="#">Bill page</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
