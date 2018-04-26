@@ -1,0 +1,39 @@
+{
+  "notifications": [
+    {
+      "from":"marin",
+      "role":"Admin",
+      "date":"25-04-2018",
+      "title":"User invite expired",
+      "description":"Richard's invite have been expired"
+    },
+    {
+      "from":"matt",
+      "role":"User",
+      "date":"22-04-2018",
+      "title":"Last month bills",
+      "description":"Bills for April 2018 has been generated"
+    },
+    {
+      "from":"stephen",
+      "role":"Admin",
+      "date":"22-04-2018",
+      "title":"New admin user",
+      "description":"New administrator have been added"
+    },
+    {
+      "from":"stephen",
+      "role":"User",
+      "date":"22-04-2018",
+      "title":"Payment reminder",
+      "description":"Your bill payment is due, check with your administrator"
+    },
+    {
+      "from":"stephen",
+      "date":"20-04-2018",
+      "role":"Admin",
+      "title":"New online user",
+      "description":"New online user is created"
+    }
+  ]
+}

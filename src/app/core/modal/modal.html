@@ -5,20 +5,26 @@
       <h3 class="h3">Welcome to BMW Group Niederlassung West</h3>
       <p class="desc">Before accepting the invitation to the company , we need to confirm your details and create a  password for you.</p>
     </div>
-    <form>
+
+
+
+    <form [formGroup]="complexForm" (ngSubmit)="submitForm(complexForm.value)">
       <div class="form-group">
-  <label for="email">Email</label>
-  <input type="email" class="form-control" id="email">
-</div>
-<div class="form-group">
-  <label for="pwd">Name:</label>
-  <input type="password" class="form-control" id="pwd">
-</div>
-<div class="checkbox">
-  <label><input type="checkbox"> I agree to the <u>Vodafone Terms of Use</u></label>
-</div>
-<button type="submit" class="btn btn-default">Send Invite</button>
-</form>
+        <label>Email:</label>
+        <input class="form-control" type="email" placeholder="Email" [formControl]="complexForm.controls['Email']">
+      </div>
+      <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" type="text" placeholder="Name" [formControl]="complexForm.controls['Name']">
+      </div>
+      <label>
+        <span><input type="checkbox" value="agree"></span> I agree to the <u>Vodafone Terms of Use</u>
+      </label>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" [disabled]="!complexForm.valid">Submit</button>
+      </div>
+    </form>
+
 
 
   </div>

@@ -19,14 +19,24 @@
 
             </div>
           </div>
-
+          <div *ngIf="type=='Admin'">
           <div class="dropdown float-right">
             <div  class="dropdown-button">
             <button class="btn btn-primary" type="button" [class.toggle]="toggleThis" (click)="toggle()">Startseite<span class="caret"></span></button>
             <ul class="dropdown-menu">
               <li><a href="/usermanagment">User Management page</a></li>
-              <li><a href="#">Bill page</a></li>
             </ul>
+          </div>
+        </div>
+          </div>
+          <div *ngIf="type=='User'">
+            <div class="dropdown float-right">
+              <div  class="dropdown-button">
+              <button class="btn btn-primary" type="button" [class.toggle]="toggleThis" (click)="toggle()">Startseite<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="/billpay">Bill page</a></li>
+            </ul>
+          </div>
           </div>
         </div>
         </div>

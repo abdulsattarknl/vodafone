@@ -2,7 +2,8 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  template: `<h3>{{ message }}</h3>`
+  templateUrl: './home.html',
+  styleUrls: ['./home.css']
 })
 export class HomeComponent implements OnInit {
   public message: string;
@@ -10,6 +11,6 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.message = 'Hello';
+    this.message = 'Body1234';
   }
 }

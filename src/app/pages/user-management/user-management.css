@@ -73,3 +73,64 @@
 .category-button:hover{
   background: #ddd
 }
+
+
+
+.popup-modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index:99999;
+}
+.popup-modal.hidden{
+  display: none;
+}
+.popup-modal .overlay{
+  background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.popup-body{
+    background: #fff;
+    border:1px solid #ccc;
+    padding: 50px 50px ;
+    position: relative;
+    width: 50%;
+    transform: translate(50%, 10%);
+}
+.popup-body label{
+  margin-bottom: 0;
+}
+.popup-header .h3{
+  width:60%;
+}
+.desc{
+  padding:10px 0;
+  width:100%;
+  font-size:13px;
+
+}
+.popup-header .title{
+  font-size:18px;
+  padding:10px 10px;
+}
+
+
+.popup-modal .btn-default{
+  background-color: #E60000;
+  border-color: #E60000;
+  outline: none;
+  box-shadow:none;
+  border: none;
+  color:#fff;
+  margin:20px auto;
+}
+.popup-modal .btn-default:hover, .popup-modal .btn-default:focus{
+  background: red;
+  outline: none;
+}

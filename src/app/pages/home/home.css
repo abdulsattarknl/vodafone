@@ -1,0 +1,73 @@
+.body-view{
+    padding-top:30px;
+    height: 500px;
+}
+@media only screen and (max-height: 1024px) and (orientation: landscape)
+.mod-mph .mph_landscape_asset {
+    display: block;
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px)
+.mod-mph .mph_landscape_asset {
+    display: block;
+}
+.mod-mph .mph_landscape_asset, .mod-mph .mph_portrait_asset {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: #2e2e2e;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mod-mph .mph_landscape_asset {
+    display: block;
+}
+.mod-mph .mph_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mod-mph .mph_center ul li {
+    float: left;
+    width: 100px;
+    margin-right: 120px;
+}
+.mod-mph .mph_center ul li a {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.mod-mph .mph_center ul li a .mph_icon {
+    width: 100px;
+    height: 100px;
+    padding: 26px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    transition: background-color 0.2s;
+    background-color: #fff;
+}
+.mod-mph {
+    height: 500px;
+}
+.mod-mph .mph_center ul li a .h3 {
+    color: #fff;
+    transition: color 0.2s;
+    margin: 0px auto;
+    margin-left: -50px;
+    width: 200px;
+    text-align: center;
+}
+.mod-mph .mph_center ul li {
+    margin-bottom: 81px;
+    margin-right: 40px;
+    list-style: none;
+}
+h3, .h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+

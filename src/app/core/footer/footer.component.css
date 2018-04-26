@@ -1,0 +1,272 @@
+.mod-glnav-footer {
+    position: relative;
+    background: #2e2e2e;
+}
+
+
+.belt, .enterprise .belt {
+    padding: 0 8px;
+}
+
+.belt {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+.access {
+    left: -9999em;
+    position: absolute;
+}
+
+h3, .h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+h3, .h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.mod-glnav-footer .mod-qualityseals {
+    border-bottom: 1px solid #ccc;
+    margin: 50px 0 0;
+    padding: 0 0 50px;
+}
+
+.mod-glnav-footer .mod-qualityseals ul.list-qualityseals {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 -15px;
+    display: table;
+}
+
+.belt, .enterprise .belt {
+    padding: 0 16px;
+    max-width: 960px;
+}
+.mod-glnav-footer ul.list-social {
+    position: relative;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.mod-glnav-footer ul.list-social {
+    position: relative;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.mod-glnav-footer ul.list-foo-main {
+    margin-left: -32px;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+.mod-glnav-footer ul.list-foo-main li.foo-item-main {
+    width: 25%;
+    float: left;
+    padding: 0 0 0 32px;
+    border-top: 0;
+}
+.mod-glnav-footer ul.list-foo-main li.foo-item-main a, .mod-glnav-footer ul.list-foo-main li.foo-item-main .head {
+    height: auto;
+    margin-bottom: 10px;
+}
+.mod-glnav-footer ul {
+    list-style-type:none;
+}
+ul.list-foo-main li.foo-item-main .head span {
+    position: relative;
+    display: table-cell;
+    padding: 0 ;
+    font-size: 20px;
+    line-height: 27px;
+    vertical-align: middle;
+}
+.mod-glnav-footer ul.list-foo-main li.foo-item-main .foo-secondary ul.list-foo-sec li.foo-item-sec a span {
+    padding: 0;
+    font-size: 14px;
+    position: relative;
+    display: table-cell;
+    line-height: 24px;
+}
+.mod-glnav-footer, .mod-glnav-footer a, .mod-glnav-footer a:visited {
+    color: #fff;
+}
+.linksbelt{
+    height:600px;
+}
+
+.mod-glnav-footer .trustedshops-wrapper {
+    position: relative;
+    padding: 15px 0;
+}
+
+.mod-glnav-footer ul.list-foo-main li.foo-item-main:nth-last-child(0) {
+    margin-left: 50%;
+    clear: both;
+}
+.mod-glnav-footer ul.list-foo-main li.foo-item-main {
+    width: 23%;
+    float: left;
+    padding: 0 0 0 15px;
+    border-top: 0;
+}
+
+.mod-glnav-footer .copyright {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.mod-glnav-footer[_ngcontent-c1] ul.list-foo-main[_ngcontent-c1] li.foo-item-main[_ngcontent-c1] a[_ngcontent-c1], .mod-glnav-footer[_ngcontent-c1] ul.list-foo-main[_ngcontent-c1] li.foo-item-main[_ngcontent-c1] .head[_ngcontent-c1] {
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.mod-glnav-footer ul.list-foo-main li.foo-item-main a span, .mod-glnav-footer ul.list-foo-main li.foo-item-main .head span {
+    position: relative;
+    display: table-cell;
+    /* padding: 0 75px 0 10px; */
+    font-size: 20px;
+    line-height: 27px;
+    vertical-align: middle;
+
+}
+
+
+.mod-glnav-footer ul.list-foo-main li.foo-item-main a span, .mod-glnav-footer ul.list-foo-main li.foo-item-main .head div{
+    font-size: 20px;
+}
+.mod-glnav-footer .trustedshops-wrapper .trustedshops {
+    position: absolute;
+    top: -43px;
+    left: 0;
+    width: 50%;
+}
+.mod-glnav-footer[_ngcontent-c1] .trustedshops-wrapper[_ngcontent-c1] {
+    position: relative;
+    padding: 15px 0;
+}
+.mod-glnav-footer .trustedshops-wrapper {
+    padding: 15px 0;
+}
+.mod-glnav-footer .trustedshops-wrapper .trustedshops {
+    position: absolute;
+    top: -43px;
+    left: 0;
+    width: 50%;
+}
+.mod-glnav-footer .trustedshops-wrapper .trustedshops #MyCustomTrustbadge {
+    margin: 0 10px 0 0;
+}
+
+ .sprite01 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    display: inline-block;
+  /* background-image: url('../../../assets/footer-quality-seals-sprite.png');  */
+    background-position: 0 -336px;
+    width: 82px;
+    height: 82px;
+}
+.sprite02 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    display: inline-block;
+    /* background-image: url(../../../assets/footer-quality-seals-sprite.png); */
+    background-position: 0 -84px;
+    width: 95px;
+    height: 82px;
+}
+.sprite03 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    display: inline-block;
+    /* background-image: url(../../../assets/footer-quality-seals-sprite.png); */
+    background-position: 0 -168px;
+    width: 95px;
+    height: 82px;
+}
+ .sprite04 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    display: inline-block;
+    /* background-image: url(../../../assets/footer-quality-seals-sprite.png); */
+    background-position: 0 -252px;
+    width: 95px;
+    height: 82px;
+}
+ .sprite05 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    display: inline-block;
+    /* background-image: url(../../../assets/footer-quality-seals-sprite.png); */
+    background-position: 0 0;
+    width: 77px;
+    height: 82px;
+}
+.mod-glnav-footer .mod-qualityseals li.qs-item {
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    float: none;
+    display: table-cell;
+    width:200px;
+}
+.mod-glnav-footer ul.list-social {
+    position: relative;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.mod-glnav-footer ul.list-social li {
+    position: relative;
+    margin: 0 5px;
+}
+.mod-glnav-footer ul.list-social li .icon {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    /* background-image: url(../../../assets/ols-search.svg); */
+    background-size: 150px 1230px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-vf {
+    background-position: -114px -78px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-linkedin {
+    background-position: -114px -294px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-youtube {
+    background-position: -114px -150px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-gplus {
+    background-position: -114px -186px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-twitter {
+    background-position: -114px -222px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-facebook {
+    background-position: -114px -114px;
+}
+.mod-glnav-footer ul.list-social li .icon.icon-social-forum {
+    background-position: -114px -366px;
+}
+
+.mod-glnav-footer ul.list-foo-main li.foo-item-main .foo-secondary ul.list-foo-sec li.foo-item-sec a {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-decoration: none;
+}
+.list-foo-sec{
+    padding: 0px;
+}
