@@ -8,29 +8,14 @@
         </div>
       </div>
 
-          <div class="row">
-              <div class="col-lg-1"><img src=""></div>
-              <div class="col-lg-1">121323</div>
-              <div class="col-lg-4">fdsjjds</div>
-              <div class="col-lg-4">dssdsdd ffhkdfk</div>
-              <div class="col-lg-1">X</div>
-              <div class="col-lg-1">New</div>
-          </div>
-          <div class="row">
-              <div class="col-lg-1"><img src=""></div>
-              <div class="col-lg-1">121323</div>
-              <div class="col-lg-4">fdsjjds</div>
-              <div class="col-lg-4">dssdsdd ffhkdfk</div>
-              <div class="col-lg-1">X</div>
-              <div class="col-lg-1">New</div>
-          </div>
-          <div class="row">
-              <div class="col-lg-1"><img src=""></div>
-              <div class="col-lg-1">121323</div>
-              <div class="col-lg-4">fdsjjds</div>
-              <div class="col-lg-4">dssdsdd ffhkdfk</div>
-              <div class="col-lg-1">X</div>
-              <div class="col-lg-1">New</div>
+          <div *ngFor="let item of notification.notifications">
+            <div *ngIf="item.role === type" class="row">
+              <div class="col-lg-2"><img class="icon" src="../../../assets/images/avatar.png"> <span class="date">{{item.date}}</span></div>
+              <div class="col-lg-2">{{item.title}}</div>
+              <div class="col-lg-6">{{item.description}}</div>
+              <div class="col-lg-2"><img class="icon" src="../../../assets/images/left2.png"> <img class="icon" src="../../../assets/images/delete.png"></div>
+            </div>
+
           </div>
       </div>
   </div>

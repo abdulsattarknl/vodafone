@@ -20,23 +20,54 @@
             <div class="search"><input class="search-input" placeholder="search"/></div>
             <div class="details-table">
                 <div class="row">
-                  <div class="col-lg-4">Name</div>
+                  <div class="col-lg-2">Name</div>
                   <div class="col-lg-4">Status</div>
-                  <div class="col-lg-4">Groups</div>
+                  <div class="col-lg-6">Groups</div>
                 </div>
-                <div class="row user-row">
-                  <div class="col-lg-4"><img src=""> Abdul Ifthekar</div>
-                  <div class="col-lg-4">Activated</div>
-                  <div class="col-lg-4"><a class="category-button">Management</a> <a class="category-button">Sales</a> <a class="category-button">Forntoffice</a> <a class="category-button">Garage</a> <a class="category-button">Compane</a></div>
-                </div>
-                <div class="row user-row">
-                  <div class="col-lg-4"><img src=""> Abdul Sattar</div>
-                  <div class="col-lg-4">Activated</div>
-                  <div class="col-lg-4"><a class="category-button">Management</a> <a class="category-button">Sales</a> <a class="category-button">Forntoffice</a> <a class="category-button">Garage</a> <a class="category-button">Compane</a></div>
+                <div *ngFor="let item of activeUser" class="row">
+                  <div class="col-lg-2">{{item}}</div>
+                    <div class="col-lg-4">Activated</div>
+                    <div class="col-lg-6"><a class="category-button">Management</a> <a class="category-button">Sales</a> <a class="category-button">Forntoffice</a> <a class="category-button">Garage</a> <a class="category-button">Compane</a></div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 </div>
-<app-modal *ngIf="showModal"></app-modal>
+<div *ngIf="showModal">
+  <div class="popup-modal" [class.hidden]="hiddenOnClick">
+    <div class="overlay" (click)="hideThis()"></div>
+    <div class="popup-body">
+      <div class="popup-header">
+        <h3 class="h3">Welcome to BMW Group Niederlassung West</h3>
+        <p class="desc">Before accepting the invitation to the company , we need to confirm your details and create a  password for you.</p>
+      </div>
+
+
+
+      <form [formGroup]="complexForm" (ngSubmit)="submitForm(complexForm.value)">
+        <div class="form-group">
+          <label>Email:</label>
+          <input class="form-control" type="email" placeholder="Email" [formControl]="complexForm.controls['Email']">
+        </div>
+        <div class="form-group">
+          <label>Name</label>
+          <input class="form-control" type="text" placeholder="Name" [formControl]="complexForm.controls['Name']">
+        </div>
+        <label>
+          <span><input type="checkbox" value="agree"></span> I agree to the <u>Vodafone Terms of Use</u>
+        </label>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" [disabled]="!complexForm.valid">Submit</button>
+        </div>
+      </form>
+
+
+
+    </div>
+
+
+  </div>
+
+</div>

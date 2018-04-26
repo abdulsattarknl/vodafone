@@ -2,17 +2,17 @@ import {Component, OnInit} from '@angular/core';
 import { ModalComponent } from '../../core/modal/modal.component';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.html',
-  styleUrls: ['./dashboard.css']
+  selector: 'app-bill',
+  templateUrl: './bill-pay.html',
+  styleUrls: ['./bill-pay.css']
 })
-export class DashboardComponent implements OnInit {
+export class BillPayComponent implements OnInit {
   labels: any;
   loginType: any;
   chartData: any = [];
   show: boolean;
   colors: any = [
-    { // 2nd Year.
+    {
       backgroundColor: 'rgba(30, 169, 224, 0.8)'
     }
   ];

@@ -1,0 +1,29 @@
+<div class="notification-component">
+  <div class="notification-container">
+    <div class="container">
+      <div class="notification-header">
+          <div class="header-content">
+            <span class="float-left"><b>Vergangene Rechnungen</b></span><br/>
+            <div>user can select multiple bills and able to download bills</div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-2"><a href=""><img class="icon" src="../../../assets/images/file.png"></a></div>
+          <div class="col-lg-8">Rechnungen bill {{currentBill.period}}</div>
+          <div class="col-lg-2"> <span class="type">New</span> {{currentBill.amount}} <span class="divider"></span>. . .</div>
+      </div>
+
+      <div *ngFor="let item of billpay" class="row">
+          <div class="col-lg-2"><input type="checkbox"> <span class="divider"></span> <a href=""><img class="icon" src="../../../assets/images/file.png"></a></div>
+          <div class="col-lg-8">Rechnungen bill {{item.period}}</div>
+          <div class="col-lg-2">{{item.amount}} <span class="divider"></span>. . .</div>
+      </div>
+
+                    <div>
+                            <button class="btn btn-default">Bill summary</button>
+                            <button class="btn btn-default">Bill Details list Info</button>
+                    </div>
+      </div>
+  </div>
+</div>

@@ -34,7 +34,18 @@
   width: 300px;
 }
 .toggle + .dropdown-menu{
-  display: block
+  display: block;
+  border-radius:0;
+  margin: 0 0;
+  padding: 10px 10px;
+}
+.dropdown-menu li{
+  padding: 10px 10px;
+
+}
+.dropdown-menu li a{
+  text-decoration: none;
+
 }
 .toggle{width: 300px;}
 .dropdown-button, button.btn.btn-primary, button.btn.btn-primary:focus, button.btn.btn-primary:active, button.btn.btn-primary:hover{

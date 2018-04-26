@@ -1,14 +1,57 @@
+.list-nav-meta-right{
+  float: right;
+  list-style: none;
+  margin-right: 8px;
+}
+.list-nav-meta-right li{
+  float: left;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.meta-nav-wrapper {
+  position: relative;
+  display: block;
+  height: 30px;
+  background-color: #4A4D4E;
+}
+.icon {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  /* background-image: url(../../../assets/ols-search.svg); */
+  background-size: 135px 1107px;
+}
+
+.logo .icon.icon-vf-inner {
+  background-position: -102.4px -67.2px;
+    right: 14px;
+    top: -14px;
+}
 .navbar {
   overflow: hidden;
-  position: fixed;
-  background-color: #E60000;
+
+  background-color: #fff;
   padding: 0 0;
   top: 0;
   right:0;
   left:0;
   width: 100%;
   z-index: 9999;
+  height: 100px;
 
+}
+.logo {
+  position: absolute;
+  top: 34px;
+  left: 100px;
+  width: 32px;
+  height: 32px;
+  background-color: #e60000;
+  border-radius: 16px;
+  z-index: 10;
 }
 .navbar .row{
   max-width:1024px;
@@ -26,7 +69,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #2e2e2e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +87,7 @@
 a:hover .dropdown{
   display: block;
   position: fixed;
-    top: 48px;
+    top: 108px;
     left: 0;
     right: 0;
     background: #eee;
@@ -60,4 +103,9 @@ a:hover .dropdown{
   margin-top: 7px;
     padding: 5px 10px;
     width: 297px;
+}
+.mod-glnav-footer {
+  background: #2e2e2e;
+  height: 1000px;
+  width: 1000px;
 }

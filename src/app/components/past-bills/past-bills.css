@@ -6,18 +6,18 @@
 }
 .header-content{
   margin: 20px auto;
-
-      height: 30px;
+  height: 30px;
 }
 .notification-component .row{
   padding:10px 0;
 }
+
 .icon{
   display: inline;
   width:32px;
   height:32px;
   margin-right: 10px;
 }
-.icon + .icon{
-  margin-right: 0px;
+.divider{
+  padding: 20px 20px;
 }

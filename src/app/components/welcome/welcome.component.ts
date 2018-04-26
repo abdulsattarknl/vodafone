@@ -2,19 +2,30 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
-  templateUrl:'./welcome.html',
+  templateUrl: './welcome.html',
   styleUrls: ['./welcome.css']
 })
 export class WelcomeComponent implements OnInit {
-  toggleThis:boolean;
+  toggleThis: boolean;
+  type:any;
   constructor() { }
 
   ngOnInit() {
-    this.toggleThis=false;
+    var userType = sessionStorage.getItem('type');
+    if(userType =="user"){
+
+      this.type="User";
+      console.log(this.type);
+    }
+    else{
+      this.type="Admin";
+      console.log(this.type);
+    }
+    this.toggleThis = false;
   }
-  toggle(){
+  toggle() {
     this.toggleThis = !this.toggleThis;
-    
+
   }
 
 }
